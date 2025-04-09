@@ -1,9 +1,7 @@
 #!/bin/sh
-touch notes.txt
 
-myvar="Hellow Linux"
-echo 1
-echo $myvar #'Hellow Linux' 출력
+echo "Hellow Linux!" > notes.txt
+cat notes.txt
 
 
-exit 0
+
