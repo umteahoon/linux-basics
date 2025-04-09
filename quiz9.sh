@@ -1,4 +1,2 @@
 #!/bin/sh
 
-cd ~
-pwd
