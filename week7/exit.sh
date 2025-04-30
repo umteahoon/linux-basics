@@ -1,8 +1,9 @@
 #!/bin/sh
-if [ -e "directory.sh" ] 
-then 
- echo "이것은 파일 입니다."
+if [ "linux" = "mac" ]
+then
+	echo "참입니다."
+	exit 1
 else
- echo "이것은 파일이 아닙니다."
+	echo "거짓입니다."
+	exit 0
 fi
-exit 0
